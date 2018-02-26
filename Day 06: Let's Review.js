@@ -5,7 +5,7 @@ function processData(input) {
         for (var j = 0; j < m[i].length; j++){
             if (j%2 == 0){
                 even = even + m[i][j];
-            }else {
+            } else {
                 odd = odd + m[i][j];
             }
         }
